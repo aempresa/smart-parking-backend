@@ -13,6 +13,8 @@ from drf_spectacular.views import (
 
 from .router import router
 
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/", include(router.urls)),
